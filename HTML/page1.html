@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+</head>
+
+<body>
+    <div style="float: left; width: 45%;">
+        <h1>Page one heading</h1>
+        <h2>Page two heading</h2>
+        <h3>Page three heading</h3>
+        <h4>Page four heading</h4>
+
+        <p>This is a paragraph.</p>
+
+        <p>This is <span style="color: green;">another</span> paragraph.</p>
+
+        <span>This is a part of a text.</span>
+
+        <span>This is the rest of the text.</span>
+
+        <div>This text is inside the div.</div>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Notes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Ashish</td>
+                    <td colspan="2">ashish.s</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Arun</td>
+                    <td>arun.r</td>
+                    <td rowspan="2">Interns</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Rahul</td>
+                    <td>rahul.k</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </div>
+
+    <div style="float: right; width:45%;">
+
+        <ul>
+            <li>Red</li>
+            <li>Green</li>
+            <li>Blue</li>
+        </ul>
+
+        <ol>
+            <li>Red</li>
+            <li>Green</li>
+            <li>Blue</li>
+        </ol>
+
+        <dl>
+            <dt><strong>Languages</strong></dt>
+            <dd>Java <small>8</small></dd>
+            <dd>C#</dd>
+            <dd>node</dd>
+            <dd>python</dd>
+
+            <dt>Databases</dt>
+            <dd>Mysql</dd>
+            <dd>Oracle</dd>
+            <dd>Postgres</dd>
+            <dd>mongo</dd>
+        </dl>
+
+        <form method="GET">
+
+            <p>
+                <label for="username">Username</label>
+                <input type="text" name="username">
+            </p>
+            <p>
+                <label for="password">Password</label>
+                <input type="password" name="password">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email">
+            </p>
+            <p>
+                <label for="gender">Email</label>
+                Male<input type="radio" name="gender">
+                Female<input type="radio" name="gender">
+            </p>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+
+</html>
